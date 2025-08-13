@@ -45,12 +45,7 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 ### Step 2) Mock Meeting: Policy Buy-In (Stakeholders)
 
 In this phase, a meeting with the server team introduces the draft Vulnerability Management Policy and assesses their capability to meet remediation timelines. Feedback leads to adjustments, like extending the critical remediation window from 48 hours to one week, ensuring collaborative implementation.
-
-<a href='https://youtu.be/8g6uafc6LjE' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/549d21f4-26c2-412d-9117-d7b6835aedbf"></a>
-
-[YouTube Video: Stakeholder Policy Buy-In Meeting](https://youtu.be/8g6uafc6LjE)
-
----
+[Mock Meeting Transcript](https://docs.google.com/document/d/1EqCftRpALkrcHu-LwlWhAWxDiDP7upBpc4gj_DD5uwI/edit?tab=t.0)
 
 ### Step 3) Policy Finalization and Senior Leadership Sign-Off
 

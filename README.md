@@ -40,9 +40,7 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 ### Vulnerability Management Policy Draft Creation
 
 This phase focuses on drafting a Vulnerability Management Policy as a starting point for stakeholder engagement. The initial draft outlines scope, responsibilities, and remediation timelines, and may be adjusted based on feedback from relevant departments to ensure practical implementation before final approval by upper management.  
-[Draft Policy](https://docs.google.com/document/d/1CLSWm1_9JL1oUqgyNNwtPXW6FzXJ7ddVnSAUQTyqC8I/edit?usp=drive_link)
-
----
+[Draft Policy](https://docs.google.com/document/d/1tx2xxKo-FgmGyjub9MSgKi6hk2ujimTsSfu4dRnroBc/edit?tab=t.0#heading=h.wzer8el0objm)
 
 ### Step 2) Mock Meeting: Policy Buy-In (Stakeholders)
 

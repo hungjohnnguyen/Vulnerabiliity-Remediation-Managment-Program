@@ -44,7 +44,18 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 
 ### Step 2) Mock Meeting: Policy Buy-In (Stakeholders)
 
-In this phase, a meeting with the server team introduces the draft Vulnerability Management Policy and assesses their capability to meet remediation timelines. Feedback leads to adjustments, like extending the critical remediation window from 48 hours to one week, ensuring collaborative implementation.
+This phase simulates a stakeholder meeting designed to secure buy-in from the server team for the proposed Vulnerability Management Policy. The purpose is twofold:
+
+Introduce the draft policy — outlining its scope, responsibilities, and remediation timelines for vulnerabilities of varying severity.
+Assess operational feasibility — ensuring the remediation expectations are realistic and achievable given the team’s resources, testing procedures, and business continuity needs.
+The meeting begins with the Security Lead presenting the policy, emphasizing its role in reducing risk exposure for critical systems and safeguarding sensitive client data. The server team is invited to share practical concerns, especially regarding the short turnaround time for critical vulnerability remediation.
+Through discussion, it becomes clear that the original 48-hour remediation window for critical vulnerabilities may be impractical due to testing, change management processes, and the potential impact on production environments. The team collectively agrees to extend the window to one week, with an emergency override clause for high-risk situations requiring immediate patching.
+
+By the end of this phase:
+
+The policy draft is adjusted collaboratively to balance security requirements with operational realities.
+Stakeholders feel heard and invested, improving the likelihood of policy adoption.
+Next steps include revising the document to reflect changes and preparing it for upper management review.
 [Mock Meeting Transcript](https://docs.google.com/document/d/1EqCftRpALkrcHu-LwlWhAWxDiDP7upBpc4gj_DD5uwI/edit?tab=t.0)
 
 ### Step 3) Policy Finalization and Senior Leadership Sign-Off

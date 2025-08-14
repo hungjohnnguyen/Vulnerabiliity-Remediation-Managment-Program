@@ -62,8 +62,16 @@ Next steps include revising the document to reflect changes and preparing it for
 
 ### Step 3) Policy Finalization and Senior Leadership Sign-Off
 
-After gathering feedback from the server team, the policy is revised, addressing aggressive remediation timelines. With final approval from upper management, the policy now guides the program, ensuring compliance and reference for pushback resolution.  
-[Finalized Policy](https://docs.google.com/document/d/1rvueLX_71pOR8ldN9zVW9r_zLzDQxVsnSUtNar8ftdg/edit?usp=drive_link)
+After collecting feedback from the server team, adjustments were made to ensure the policy was realistic and achievable in daily operations. In particular, remediation timelines were revised to balance security urgency with operational feasibility.
+Following revisions, the policy was submitted to senior leadership for final review and approval. Once signed off, it became the official guiding document for the organization’s vulnerability management program.
+
+Key Outcomes:
+
+Incorporated cross-team feedback to improve practical implementation.
+Adjusted aggressive remediation timelines to align with resource constraints while maintaining compliance.
+Obtained executive approval, giving the policy authority for enforcement and reference in pushback scenarios.
+  
+[Finalized Policy](https://docs.google.com/document/d/1SGi0z2lfUgrIGqCaSvyBk8TQcluz-hSMR0twnRnOP7E/edit?tab=t.0)
 <div style="text-align: center;">
     <img src="https://github.com/user-attachments/assets/9afcdbc1-0493-4af2-9287-1cb9b8f59b40" alt="image" width="400">
 </div>

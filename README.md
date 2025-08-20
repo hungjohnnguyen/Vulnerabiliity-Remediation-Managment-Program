@@ -109,13 +109,45 @@ We assessed vulnerabilities and established a remediation prioritization strateg
 
 ---
 
-### Step 7) Distributing Remediations to Remediation Teams
+## Step 7) Distributing Remediations to Remediation Teams
 
-The server team received remediation scripts and scan reports to address key vulnerabilities. This streamlined their efforts and prepared them for a follow-up review.  
+In this step, remediation scripts and reports are distributed to the server team to streamline their remediation efforts.  
 
-<img width="635" alt="image" src="https://github.com/user-attachments/assets/bbf9478f-e1d1-4898-846e-b510ec8c6f72">
+<details>
+  <summary>📧 Mock Email: Vulnerability Remediation Scripts for Testing and Deployment (click to expand)</summary>
 
-[Remediation Email](https://github.com/joshmadakor1/lognpacific-public/blob/main/misc/remediation-email.md)
+---
+
+**Subject:** Vulnerability Remediation Scripts for Testing and Deployment  
+
+Hi Team,  
+
+Following the results of our initial vulnerability scan and assessment, we have prepared a set of remediation scripts to streamline the mitigation process. These scripts address several high-priority issues and are designed for easy integration into your existing deployment platforms (e.g., SCCM).  
+
+Before pushing these changes into production, please conduct thorough testing in your staging environment to validate functionality and confirm compatibility with your systems.  
+
+### Vulnerabilities and Remediations Addressed
+- **Third-Party Software Removal:** Automated removal of Wireshark to reduce unnecessary attack surface.  
+- **Windows OS Secure Configuration:**  
+  - Disable insecure protocols.  
+  - Remove/disable weak cipher suites.  
+  - Review and restrict Guest account group membership.  
+
+Your feedback will be critical to ensuring these remediations are both effective and minimally disruptive. Please share any issues or observations after testing so we can refine the scripts prior to the full rollout.  
+
+Thank you for your prompt attention to this effort.  
+
+Best regards,  
+**[Hung Nguyen]**  
+Security Operations  
+
+---
+
+### 📷 Email Screenshot (Mockup)
+
+![Email Template](https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/vulnerabilityemail.png)
+</details>
+
 
 ---
 

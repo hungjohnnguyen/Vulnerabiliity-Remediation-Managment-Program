@@ -153,28 +153,31 @@ Security Operations
 
 ## Step 8) Mock Meeting: Post-Initial Discovery Scan (Server Team)
 
+After running the initial vulnerability discovery scan, the server team gathered to review the findings.  
+
+<details>
+  <summary>📝 Transcript (click to expand)</summary>
+
 **Context:**  
-After running the initial vulnerability discovery scan, the server team gathered to review the findings. The goal of this session was to validate identified issues, discuss remediation approaches, and prepare remediation packages for submission to the Change Control Board (CAB).
+The goal of this session was to validate identified issues, discuss remediation approaches, and prepare remediation packages for submission to the Change Control Board (CAB).
 
 ---
 
-### 📝 Transcript (Mock)
-
-**[Hung Nguyen]:** Thank you all for joining. Today’s focus is the results of our initial discovery scan. Overall, the scan flagged outdated software versions, insecure user accounts, and several deprecated protocols still in use.  
+**[Hung Nguyen, Security Lead]:** Thank you all for joining. Today’s focus is the results of our initial discovery scan. Overall, the scan flagged outdated software versions, insecure user accounts, and several deprecated protocols still in use.  
 
 **[Server Admin 1]:** Yes, I noticed multiple servers still running older versions of Java and a few legacy applications with embedded dependencies. We’ll need to schedule upgrades or replacements.  
 
 **[Server Admin 2]:** On the accounts side, the scan flagged some inactive service accounts that still have elevated privileges. Disabling those should be a quick win.  
 
-**[Jordan]:** Correct. We also saw deprecated protocols — specifically SMBv1 and TLS 1.0 — enabled on some Windows servers. Those configurations need to be updated as part of our hardening efforts.  
+**[Jordan, Security Analyst]:** Correct. We also saw deprecated protocols — specifically SMBv1 and TLS 1.0 — enabled on some Windows servers. Those configurations need to be updated as part of our hardening efforts.  
 
-**[Hung Nguyen]:** Good observations. The remediation scripts for removing outdated software and disabling insecure protocols are ready. We’ll also include a package to restrict the flagged accounts.  
+**[Hung Nguyen, Security Lead]:** Good observations. The remediation scripts for removing outdated software and disabling insecure protocols are ready. We’ll also include a package to restrict the flagged accounts.  
 
 **[Server Admin 1]:** Understood. We’ll test those remediation packages in staging first, then prepare them for CAB review.  
 
 **[Server Admin 2]:** Agreed. Once CAB approves, we can schedule deployment during the next maintenance window.  
 
-**[Hung Nguyen]:** Perfect. Let’s finalize the remediation packages and submit them to CAB this week. Thank you, everyone.  
+**[Hung Nguyen, Security Lead]:** Perfect. Let’s finalize the remediation packages and submit them to CAB this week. Thank you, everyone.  
 
 ---
 
@@ -183,15 +186,55 @@ After running the initial vulnerability discovery scan, the server team gathered
 - **Next Steps:** Remediation packages prepared and readied for CAB submission.  
 - **Owner:** Server Team, with oversight from Security Operations.  
 
+</details>
+
+
+## Step 9) Mock CAB Meeting: Implementing Remediations
+
+The Change Control Board (CAB) reviewed the plan to remove insecure protocols and weak cipher suites.  
+
+<details>
+  <summary>📝 Transcript (click to expand)</summary>
+
+**Context:**  
+The CAB convened to review and approve the remediation plan addressing insecure protocols and weak cipher suites. The proposal included a rollback script and a phased (tiered) deployment approach to minimize operational risk.
+
 ---
 
-### Step 9) Mock CAB Meeting: Implementing Remediations
+**[CAB Chair]:** Welcome, everyone. Today’s agenda is the remediation plan targeting insecure protocols and deprecated cipher suites. Security Ops, can you brief us on the proposal?  
 
-The Change Control Board (CAB) reviewed and approved the plan to remove insecure protocols and cipher suites. The plan included a rollback script and a tiered deployment approach.  
+**[Hung Nguyen, Security Lead]:** Certainly. Our scans identified systems still running SMBv1 and TLS 1.0, along with several weak cipher suites. The remediation package disables those settings. We’ve also included a rollback script in case critical services encounter issues.  
 
-<a href="https://youtu.be/zOFPkTa9kY8" target="_"><img width="600" src="https://github.com/user-attachments/assets/07164e63-fbce-471a-b469-29a6d41b7bb8"/></a>
+**[Server Admin]:** We validated the package in staging. Everything worked as expected, and the rollback process restores original settings within minutes.  
 
-[Meeting Video](https://youtu.be/zOFPkTa9kY8)
+**[Application Owner]:** Any concerns about compatibility with legacy applications?  
+
+**[Server Admin]:** A few legacy apps are flagged for extra testing. None are business-critical, and we have the rollback safeguard if needed.  
+
+**[CAB Chair]:** And the deployment strategy?  
+
+**[Hung Nguyen, Security Lead]:** Tiered rollout—start with non-critical servers, monitor stability/performance, then move to critical systems after validation.  
+
+**[CAB Member]:** Are monitoring and reporting in place?  
+
+**[Hung Nguyen, Security Lead]:** Yes. We’ll review logs daily and provide CAB updates after each wave.  
+
+**[CAB Chair]:** With rollback and phased deployment, risk is acceptable. Any objections?  
+
+**[CAB Members]:** None.  
+
+**[CAB Chair]:** Approved. Proceed as outlined and report after each phase.
+
+---
+
+### 📌 Outcome
+- **Decision:** CAB approved remediation plan.  
+- **Scope:** Disable SMBv1, TLS 1.0, and weak cipher suites.  
+- **Safeguards:** Rollback script + tiered deployment.  
+- **Next Steps:** Begin phased rollout, monitor, and report progress to CAB.
+
+</details>
+
 
 ---
 ### Step 10 ) Remediation Effort

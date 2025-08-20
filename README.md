@@ -78,10 +78,53 @@ Obtained executive approval, giving the policy authority for enforcement and ref
 
 ---
 
-### Step 4) Mock Meeting: Initial Scan Permission (Server Team)
+## Step 4) Mock Meeting: Initial Scan Permission (Server Team)
 
-The team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time Active Directory credentials for secure, controlled access.  
-[Mock Transcript – Step 4: Initial Scan Permission](https://docs.google.com/document/d/16t8Kqij2ORVEMzHnXrKqCbBnvv2hD2z1VEypqU0dJDc/edit?usp=sharing)
+As part of the vulnerability management rollout, the security team met with the server team to discuss initiating credentialed scans.  
+
+<details>
+  <summary>📝 Transcript (click to expand)</summary>
+
+**Context:**  
+The goal of this session was to address server team concerns, establish trust in the scanning process, and agree on how to safely begin credentialed vulnerability scans.  
+
+---
+
+**[Hung Nguyen, Security Lead]:** Thanks for joining today. As part of our vulnerability management rollout, we’d like to begin credentialed scanning on the servers. Before we dive in, we want to make sure your team is comfortable with the process.  
+
+**[Jordan, Server Admin]:** Understood. Our main concern is the performance impact on production systems. We can’t risk downtime during critical business hours.  
+
+**[Hung Nguyen, Security Lead]:** Absolutely. To address that, we propose starting with just one server. This way, we can monitor CPU, memory, and network impact before rolling it out further.  
+
+**[Priya, Server Admin]:** Which server are you thinking of?  
+
+**[Hung Nguyen, Security Lead]:** We’d suggest starting with a non-critical server in the staging environment, unless you’d prefer a low-risk production server.  
+
+**[Jordan, Server Admin]:** Staging makes sense. We can afford a little more flexibility there. But we’ll need to make sure access is properly controlled.  
+
+**[Hung Nguyen, Security Lead]:** Agreed. We’ll be using Just-In-Time (JIT) Active Directory credentials. That means the account only exists for the duration of the scan and is automatically removed afterwards. This way, no standing privileges exist.  
+
+**[Priya, Server Admin]:** That helps. How often are you planning to run these scans?  
+
+**[Hung Nguyen, Security Lead]:** For the pilot, just once. If resource impact is minimal, we’ll discuss moving to a regular schedule—likely weekly or biweekly.  
+
+**[Jordan, Server Admin]:** Alright, let’s proceed with a single scan on staging using JIT credentials. But please share the resource usage report afterward.  
+
+**[Hung Nguyen, Security Lead]:** Absolutely. We’ll document findings, scan duration, and performance logs, then review them with your team.  
+
+**[Jordan, Server Admin]:** Perfect. Let’s schedule it after business hours tomorrow.  
+
+**[Hung Nguyen, Security Lead]:** Sounds good. Thanks, everyone—this is a solid step toward improving visibility without disrupting operations.  
+
+---
+
+### 📌 Outcome
+- **Decision:** Approved pilot credentialed scan on staging server.  
+- **Safeguards:** JIT Active Directory credentials, monitoring CPU/memory/network usage.  
+- **Next Steps:** Run pilot scan after business hours; share performance/resource report with server team.  
+
+</details>
+
 
 ---
 

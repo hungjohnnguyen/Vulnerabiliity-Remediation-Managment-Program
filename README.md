@@ -151,13 +151,37 @@ Security Operations
 
 ---
 
-### Step 8) Mock Meeting: Post-Initial Discovery Scan (Server Team)
+## Step 8) Mock Meeting: Post-Initial Discovery Scan (Server Team)
 
-The server team reviewed vulnerability scan results, identifying outdated software, insecure accounts, and deprecated protocols. The remediation packages were prepared for submission to the Change Control Board (CAB). 
+**Context:**  
+After running the initial vulnerability discovery scan, the server team gathered to review the findings. The goal of this session was to validate identified issues, discuss remediation approaches, and prepare remediation packages for submission to the Change Control Board (CAB).
 
-<a href="https://youtu.be/0tjjFewxSNw" target="_"><img width="600" src="https://github.com/user-attachments/assets/03027c66-5f7c-42d0-b6dd-09d053c040b1"/></a>
+---
 
-[Meeting Video](https://youtu.be/0tjjFewxSNw)
+### 📝 Transcript (Mock)
+
+**[Hung Nguyen]:** Thank you all for joining. Today’s focus is the results of our initial discovery scan. Overall, the scan flagged outdated software versions, insecure user accounts, and several deprecated protocols still in use.  
+
+**[Server Admin 1]:** Yes, I noticed multiple servers still running older versions of Java and a few legacy applications with embedded dependencies. We’ll need to schedule upgrades or replacements.  
+
+**[Server Admin 2]:** On the accounts side, the scan flagged some inactive service accounts that still have elevated privileges. Disabling those should be a quick win.  
+
+**[Jordan]:** Correct. We also saw deprecated protocols — specifically SMBv1 and TLS 1.0 — enabled on some Windows servers. Those configurations need to be updated as part of our hardening efforts.  
+
+**[Hung Nguyen]:** Good observations. The remediation scripts for removing outdated software and disabling insecure protocols are ready. We’ll also include a package to restrict the flagged accounts.  
+
+**[Server Admin 1]:** Understood. We’ll test those remediation packages in staging first, then prepare them for CAB review.  
+
+**[Server Admin 2]:** Agreed. Once CAB approves, we can schedule deployment during the next maintenance window.  
+
+**[Hung Nguyen]:** Perfect. Let’s finalize the remediation packages and submit them to CAB this week. Thank you, everyone.  
+
+---
+
+### 📌 Outcome
+- **Identified Issues:** Outdated software, insecure accounts, deprecated protocols.  
+- **Next Steps:** Remediation packages prepared and readied for CAB submission.  
+- **Owner:** Server Team, with oversight from Security Operations.  
 
 ---
 

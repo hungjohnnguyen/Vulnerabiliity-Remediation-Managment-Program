@@ -81,10 +81,7 @@ Obtained executive approval, giving the policy authority for enforcement and ref
 ### Step 4) Mock Meeting: Initial Scan Permission (Server Team)
 
 The team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time Active Directory credentials for secure, controlled access.  
-
-<a href='https://youtu.be/lg068WA4SKM' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/31fe8d0f-636b-475b-8d5a-a2795c183f86"></a>
-
-[YouTube Video: Initial Discovery Scan](https://youtu.be/lg068WA4SKM)
+[Mock Transcript – Step 4: Initial Scan Permission](https://docs.google.com/document/d/16t8Kqij2ORVEMzHnXrKqCbBnvv2hD2z1VEypqU0dJDc/edit?usp=sharing)
 
 ---
 

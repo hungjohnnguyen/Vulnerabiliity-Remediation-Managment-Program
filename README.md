@@ -225,6 +225,9 @@ The goal of this session was to validate identified issues, discuss remediation 
 
 **[Hung Nguyen, Security Lead]:** Perfect. Let’s finalize the remediation packages and submit them to CAB this week. Thank you, everyone.  
 
+<div style="text-align: center;">
+    <img src="https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/postinitialdiscoveryscan.png" alt="image" width="400">
+</div>
 ---
 
 ### 📌 Outcome

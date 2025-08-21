@@ -75,7 +75,7 @@ Obtained executive approval, giving the policy authority for enforcement and ref
   
 [Finalized Policy](https://docs.google.com/document/d/1SGi0z2lfUgrIGqCaSvyBk8TQcluz-hSMR0twnRnOP7E/edit?tab=t.0)
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/9afcdbc1-0493-4af2-9287-1cb9b8f59b40" alt="image" width="400">
+    <img src="https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/Policyfinalizationandseniorleadershipsighnoff.png" alt="image" width="400">
 </div>
 
 ---

@@ -287,12 +287,12 @@ The CAB convened to review and approve the remediation plan addressing insecure 
 
 #### Remediation Round 1: Outdated Wireshark Removal
 
-The server team used a PowerShell script to remove outdated Wireshark. A follow-up scan confirmed successful remediation.  
+The server team used a PowerShell script to uninstall the outdated version of Wireshark from the systems. A follow-up vulnerability scan verified that the removal was successful and the issue had been resolved.  
 [Wireshark Removal Script](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-wireshark-uninstall.ps1)  
 
 <img width="634" alt="image" src="https://github.com/user-attachments/assets/7b4f9ab2-d230-4458-ac0f-c0ff070ae79a">
 
-[Scan 2 - Third Party Software Removal](https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/finalprojectscan-wiresharkremeidiation72khw.pdf)
+[Scan 2 - Wireshark Removal](https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/finalprojectscan-wiresharkremeidiation72khw.pdf)
 
 
 #### Remediation Round 2: Insecure Protocols & Ciphers

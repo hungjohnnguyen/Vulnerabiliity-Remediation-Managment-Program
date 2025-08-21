@@ -297,7 +297,7 @@ The server team used a PowerShell script to uninstall the outdated version of Wi
 
 #### Remediation Round 2: Insecure Protocols & Ciphers
 
-The server team used PowerShell scripts to remediate insecure protocols and cipher suites. A follow-up scan verified successful remediation, and the results were saved for reference.  
+The server team leveraged PowerShell scripts to disable insecure protocols and remove weak cipher suites. A subsequent vulnerability scan confirmed that the configurations had been successfully updated, and the scan results were documented for future reference.  
 [PowerShell: Insecure Protocols Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-protocols.ps1)
 [PowerShell: Insecure Ciphers Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-cipher-suites.ps1)
 

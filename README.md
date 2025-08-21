@@ -306,23 +306,17 @@ The server team leveraged PowerShell scripts to disable insecure protocols and r
 [Scan 3 - Ciphersuites and Protocols](https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/finalprojectscan-john_scan3.pdf)
 
 
-#### Remediation Round 3: Guest Account Group Membership
+#### Remediation Round 3: Guest Account Group Membership/Windows OS updates
 
-The server team removed the guest account from the administrator group. A new scan confirmed remediation, and the results were exported for comparison.  
+The server team removed the guest account from the administrator group. A new scan confirmed remediation, and the results were exported for comparison. Windows updates were re-enabled and applied until the system was fully up to date. A final scan verified the changes  
 [PowerShell: Guest Account Group Membership Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-guest-local-administrators.ps1)  
 
 <img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
 
-[Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1jVgikjfrV1YjOcL3QRT_oUB0Y82w22V7/view?usp=drive_link)
+[Final Scan - Guest Account Group Removal/Windows OS updates](https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/finalprojectscan-johnfinalscan.pdf)
 
 
-#### Remediation Round 4: Windows OS Updates
 
-Windows updates were re-enabled and applied until the system was fully up to date. A final scan verified the changes  
-
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
-
-[Scan 5 - Post Windows Updates](https://drive.google.com/file/d/1tmDjeHl5uiGitRwWy8kFRi33q-nGi1Zt/view?usp=drive_link)
 
 ---
 

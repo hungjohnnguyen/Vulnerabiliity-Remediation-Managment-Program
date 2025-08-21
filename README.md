@@ -126,8 +126,9 @@ The goal of this session was to address server team concerns, establish trust in
 - **Next Steps:** Run pilot scan after business hours; share performance/resource report with server team.  
 
 </details>
-
-
+<div style="text-align: center;">
+    <img src= "https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/Initalscanmeeting.png" alt="image" width="400">
+</div>
 ---
 
 ### Step 5) Initial Scan of Server Team Assets

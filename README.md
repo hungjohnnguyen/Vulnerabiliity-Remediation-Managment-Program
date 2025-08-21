@@ -58,7 +58,7 @@ Stakeholders feel heard and invested, improving the likelihood of policy adoptio
 Next steps include revising the document to reflect changes and preparing it for upper management review.
 [Mock Meeting Transcript](https://docs.google.com/document/d/1EqCftRpALkrcHu-LwlWhAWxDiDP7upBpc4gj_DD5uwI/edit?tab=t.0)
 
-![Policy Buy-In Flowchart](https://github.com/hungjohnnguyen/Vulnerabiliity-Remediation-Managment-Program/blob/main/mockmeetingpic.png?raw=true)
+
 
 ### Step 3) Policy Finalization and Senior Leadership Sign-Off
 

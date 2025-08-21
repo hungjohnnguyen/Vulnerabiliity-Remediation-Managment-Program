@@ -281,6 +281,9 @@ The CAB convened to review and approve the remediation plan addressing insecure 
 - **Scope:** Disable SMBv1, TLS 1.0, and weak cipher suites.  
 - **Safeguards:** Rollback script + tiered deployment.  
 - **Next Steps:** Begin phased rollout, monitor, and report progress to CAB.
+<div style="text-align: center;">
+    <img src="https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/CAB.png" alt="image" width="400">
+</div>
 
 </details>
 

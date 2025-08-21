@@ -303,7 +303,7 @@ The server team leveraged PowerShell scripts to disable insecure protocols and r
 
 <img width="630" alt="image" src="https://github.com/user-attachments/assets/0e96120d-8ec9-4f76-8e42-79c752200010">
 
-[Scan 3 - Ciphersuites and Protocols](https://drive.google.com/file/d/1Qc6-ezQvwReCGUZNtnva0kCZo_-zW-Sm/view?usp=drive_link)
+[Scan 3 - Ciphersuites and Protocols](https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/finalprojectscan-john_scan3.pdf)
 
 
 #### Remediation Round 3: Guest Account Group Membership

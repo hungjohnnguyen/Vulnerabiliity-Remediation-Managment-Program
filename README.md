@@ -57,7 +57,9 @@ The policy draft is adjusted collaboratively to balance security requirements wi
 Stakeholders feel heard and invested, improving the likelihood of policy adoption.
 Next steps include revising the document to reflect changes and preparing it for upper management review.
 [Mock Meeting Transcript](https://docs.google.com/document/d/1EqCftRpALkrcHu-LwlWhAWxDiDP7upBpc4gj_DD5uwI/edit?tab=t.0)
-
+ 
+  <img src="https://github.com/hungjohnnguyen/Vulnerability-Remediation-Managment-Program/blob/main/vulnerabilitypolicybuyin.png" alt="image" width="400">
+</div>
 
 
 ### Step 3) Policy Finalization and Senior Leadership Sign-Off
